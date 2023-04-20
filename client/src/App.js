@@ -9,6 +9,8 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import { useContext } from "react";
 import { Context } from "./context/Context";
 
+// comment 
+
 function App() {
   const { user } = useContext(Context);
   return (
